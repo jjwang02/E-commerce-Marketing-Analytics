@@ -26,7 +26,7 @@ Beyond raw table ingestion, the pipeline implements a "One Big Table" (OBT) appr
 
 ### 3. Analytics & Notebooks
 The `notebooks/` directory contains detailed analyses:
-- **Funnel Analysis (`funnel_analysis.ipynb`):** Investigates the customer journey from event to purchase, identifying drop-off points and conversion rates across different channels.
+- **Funnel Analysis (`funnel_analysis.ipynb`):** Investigates the customer journey from event to purchase, identifying drop-off points and conversion rates across different channels; Uses Markov Chain to identify the market attribution.
 - **A/B Test Analysis (`ab_test_analysis.ipynb`):** Evaluates marketing campaign performance (e.g., Campaign 33) by comparing Control and Variant groups.
   - **Metrics:** Conversion Rate, Average Order Value (AOV), Average Revenue per User (ARPU) and Order Value(OV).
   - **Statistical Significance:** Employs Chi-square tests for categorical conversion data and Welch's T-tests for continuous revenue metrics to determine if observed differences are statistically significant.
